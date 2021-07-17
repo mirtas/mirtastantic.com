@@ -6,6 +6,8 @@ gem 'jekyll'
 group :jekyll_plugins do
     gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
+    gem 'jekyll-diagrams'
+    gem 'jekyll-archives'
     gem 'jekyll-cache-bust'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
