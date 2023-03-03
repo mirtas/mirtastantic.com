@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mirta Stantic, PhD # the website title (if blank, full name will be used instead)
+title: blank
 first_name: Mirta
 middle_name: 
-last_name: Stantic
+last_name: Stantic, PhD
 email: mirta.stantic@psy.ox.ac.uk
 description: > 
   DPhil at Department of Experimental Psychology, University of Oxford studying visual perception & social cognition. 
@@ -126,16 +126,18 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
-
-# Extras
-github: [metadata]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -168,7 +170,7 @@ scholar:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
+enable_masonry:             false  # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
@@ -199,7 +201,7 @@ jquery:
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
 mathjax:
   version: "3.1.2"
-mansory:
+masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
 mdb:
