@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: lab
-order: 4
+order: 2
 permalink: /lab/
 description:  
 

@@ -1,0 +1,1 @@
+Mirta is the PI of the FACE Lab. Her research interest is in individual differences in face processing abilities in typical and atypical populations, primarily individuals with developmental prosopagnosia and autism. She is interested in helping children with face recognition difficulties, and developing novel methods in the field. 
